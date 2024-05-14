@@ -27,6 +27,7 @@ const Home = () => {
 
     return (
     <div className="container">
+    <p>Para os amantes de filmes a Movie app é para vocês, clicando em detalhes você vai encontrar dados relacionados ao seu filme preferido.</p>    
     <h2 className="title">Melhores filmes:</h2>
     <div className="movies-container">
         {topMovies.length === 0 && <p>Carregando...</p>}
